@@ -1,0 +1,20 @@
+{
+  "$id": "yext",
+  "$type": "https://schema.yext.cloud/config/km/sample-entity",
+  "content": {
+    "yext.address": {
+      "line1": "1 Madison Ave",
+      "line2": "Floor 5",
+      "city": "New York",
+      "region": "NY",
+      "postalCode": "10010",
+      "countryCode": "US"
+    },
+    "yext.addressHidden": false,
+    "yext.name": "Yext",
+    "yext.isoRegionCode": "NY",
+    "yext.mainPhone": "+12129943900",
+    "yext.timezone": "America/New_York"
+  },
+  "entityType": "location"
+}

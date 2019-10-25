@@ -1,0 +1,15 @@
+{
+  "$id": "nico",
+  "$type": "https://schema.yext.cloud/config/km/sample-entity",
+  "content": {
+    "yext.name": "Nico Schlumprecht",
+    "c_customStructField": {
+      "numbersubfield": "9",
+      "textsubfield": "abc123"
+    },
+    "c_workplace": [
+      "yext"
+    ]
+  },
+  "entityType": "ce_person"
+}

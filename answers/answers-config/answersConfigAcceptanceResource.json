@@ -1,0 +1,46 @@
+{
+  "$id": "answersConfigAcceptanceResource",
+  "$type": "https://schema.yext.cloud/config/answers/answers-config",
+  "autocomplete": {
+    "hardcodedPrompts": [
+      "Dog eating watermelon",
+      "Dog washing near me"
+    ],
+    "disablePopularQueries": false
+  },
+  "countryRestrictions": [
+    "US",
+    "GB"
+  ],
+  "localizations": {},
+  "name": "Config Acceptance Resource",
+  "supportedLocales": [],
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "CaC",
+        "config as code"
+      ]
+    ]
+  },
+  "verticals": {
+    "hotels": {
+      "entityTypes": [
+        "location",
+        "ce_person"
+      ],
+      "keywords": [],
+      "searchableFields": {
+        "outdoorPoolCount": {
+          "typeaheadFilter": true,
+          "staticFilter": true,
+          "nlpFilter": true,
+          "textSearch": false
+        }
+      },
+      "source": "KNOWLEDGE_MANAGER",
+      "name": "Hotels"
+    }
+  }
+}

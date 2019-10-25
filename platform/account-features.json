@@ -1,0 +1,8 @@
+{
+  "$type": "https://schema.yext.cloud/config/platform/account-features",
+  "disabled": [ ],
+  "enabled": [
+    "Page Builder",
+    "Pages for Custom Entities"
+  ]
+}
